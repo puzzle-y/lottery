@@ -1,0 +1,138 @@
+.prize-manage {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.prize-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+}
+
+.prize-card .ant-card-head {
+  background: transparent;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-title {
+  color: #ffd700 !important;
+  margin: 0 !important;
+}
+
+.add-btn {
+  background: linear-gradient(135deg, #dc2626 0%, #f59e0b 100%);
+  border: none;
+  font-weight: bold;
+}
+
+.add-btn:hover {
+  background: linear-gradient(135deg, #ef4444 0%, #fbbf24 100%) !important;
+  transform: scale(1.05);
+}
+
+.prize-table {
+  background: transparent;
+}
+
+.prize-table .ant-table {
+  background: transparent;
+}
+
+.prize-table .ant-table-thead > tr > th {
+  background: rgba(220, 38, 38, 0.2);
+  color: #ffd700;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.prize-table .ant-table-tbody > tr > td {
+  background: transparent;
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.prize-table .ant-table-tbody > tr:hover > td {
+  background: rgba(255, 215, 0, 0.1);
+}
+
+.order-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(135deg, #dc2626 0%, #f59e0b 100%);
+  color: #fff;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.prize-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.prize-name.disabled {
+  color: #999;
+  text-decoration: line-through;
+}
+
+.count-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  background: rgba(255, 215, 0, 0.2);
+  color: #ffd700;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.empty-state {
+  padding: 60px 0;
+}
+
+.empty-state .ant-empty-description {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.prize-modal .ant-modal-content {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  border: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+.prize-modal .ant-modal-header {
+  background: transparent;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.prize-modal .ant-modal-title {
+  color: #ffd700;
+}
+
+.prize-modal .ant-form-item-label > label {
+  color: #fff;
+}
+
+.prize-modal .ant-input,
+.prize-modal .ant-input-number {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  color: #fff;
+}
+
+.prize-modal .ant-input::placeholder,
+.prize-modal .ant-input-number-input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.prize-modal .ant-btn-primary {
+  background: linear-gradient(135deg, #dc2626 0%, #f59e0b 100%);
+  border: none;
+}
