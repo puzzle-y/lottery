@@ -36,7 +36,7 @@ const TEXT_2026 = [
 ];
 
 export default function Home() {
-  const { persons, prizes, getEnabledPrizes, getWinners, winnerRecords, config } = useLotteryStore();
+  const { persons, getEnabledPrizes, getWinners } = useLotteryStore();
   const [animatedCards, setAnimatedCards] = useState<Set<number>>(new Set());
 
   const enabledPrizes = getEnabledPrizes();
