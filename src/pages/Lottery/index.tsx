@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
-import { Select, Typography, Space, Tag, message } from 'antd';
+import { Select, Space, Tag, message } from 'antd';
 import { TrophyOutlined, GiftOutlined, CrownOutlined, FireOutlined, FullscreenOutlined, FullscreenExitOutlined, SettingOutlined, CloseOutlined } from '@ant-design/icons';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useLotteryStore } from '@/store';

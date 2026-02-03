@@ -1,5 +1,5 @@
 import { useEffect, useState, useMemo } from 'react';
-import { Card, Typography, Button, Badge, Empty } from 'antd';
+import { Card, Typography, Button, Empty } from 'antd';
 import { TrophyOutlined, ArrowRightOutlined, UserOutlined, GiftOutlined } from '@ant-design/icons';
 import { useLotteryStore } from '@/store';
 import { motion } from 'framer-motion';

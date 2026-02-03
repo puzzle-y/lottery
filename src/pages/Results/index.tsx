@@ -31,7 +31,7 @@ const { Option } = Select;
 const { RangePicker } = DatePicker;
 
 export default function Results() {
-  const { winnerRecords, removeWinnerRecord, clearWinnerRecords, prizes, persons } = useLotteryStore();
+  const { winnerRecords, removeWinnerRecord, clearWinnerRecords, prizes } = useLotteryStore();
   const [selectedPrize, setSelectedPrize] = useState<string>('all');
   const [dateRange, setDateRange] = useState<[dayjs.Dayjs | null, dayjs.Dayjs | null]>([null, null]);
 
